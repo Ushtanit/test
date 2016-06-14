@@ -6,7 +6,6 @@ html {
 	color: #3E3E3E;
 	margin: 0;
   padding: 0;
-  height: 100%;
 	background-image: -webkit-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
   background-image: -webkit-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
 	background-image: -moz-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
@@ -60,6 +59,9 @@ p {
   .col-lg-4 {
     width: 33.33%;
     float: left;
+  }
+  html {
+      height: 100%;
   }
 }
 /********** Medium devices only **********/
