@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+html {
+	font-family: "Lato", Helvetica;
+	color: #3E3E3E;
+	margin: 0;
+  padding: 0;
+  height: 100%;
+	background-image: -webkit-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+  background-image: -webkit-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+	background-image: -moz-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+	background-image: -ms-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+	background-image: -o-radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+	background-image: radial-gradient( top center, circle cover, #E7E7E8 30%, #C6C6C6 );
+	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+p {
+  width: 90%;
+  height: 160px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  text-align: center;
+}
+.row {
+  width: 100%;
+}
+.box { 
+	margin: 20px;
+	border: 1px solid #3E3E3E;
+    background-image: radial-gradient( top center, circle cover, #E7E7E8 20%,  #C1C1C1 );
+}
+.box:hover {
+	background-color: #F3F3F3;
+}
+.box h2 {
+	text-align: center;
+	margin: 0;
+	width: 100px;
+	float: right;
+	color: #F3F3F3;
+	background-color: black;
+}
+#Chicken {
+	background-color: #EE4035;
+}
+#Beef {
+	background-color: #7BC043;
+}
+#Sushi {
+	background-color: #0392CF;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
